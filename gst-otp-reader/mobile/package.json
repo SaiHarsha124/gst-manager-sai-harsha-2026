@@ -1,0 +1,11 @@
+{
+  "name": "gst-otp-reader-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": { "start": "expo start --dev-client", "android": "expo run:android", "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "expo": "~51.0.0", "expo-clipboard": "~6.0.3", "expo-crypto": "~13.0.2", "expo-dev-client": "~4.0.0",
+    "expo-secure-store": "~13.0.2", "react": "18.2.0", "react-native": "0.74.5"
+  },
+  "devDependencies": { "@types/react": "~18.2.79", "typescript": "~5.3.3" }
+}

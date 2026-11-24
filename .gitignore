@@ -1,0 +1,103 @@
+﻿# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+**/.venv/
+**/.venv*/
+**/venv/
+**/env/
+
+# ==============================
+# ENVIRONMENT SECRETS
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# ==============================
+# DATABASES AND BACKUPS
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.bak
+*.backup
+*.dump
+
+# ==============================
+# NODE.JS
+# ==============================
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+**/.vite/
+.npm/
+
+# ==============================
+# LOGS
+# ==============================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# SECURITY KEYS AND CERTIFICATES
+# ==============================
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+**/secrets/
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# EDITORS
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# TEMPORARY FILES
+# ==============================
+*.tmp
+*.temp
+*.cache
+
+# Local backup files - do not publish
+**/main_backup.py
+**/main_backup.jsx
+**/style_backup.css
+
+# Docker configuration with local credentials
+gst-otp-reader/docker-compose.yml
